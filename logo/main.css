@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap');
+.loader {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', monospace;
+    background: rgba(24, 51, 95);
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+.luz {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 4px 0 0 #fff;
+    background: transparent;
+    animation: circle 1s linear infinite;
+}
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
