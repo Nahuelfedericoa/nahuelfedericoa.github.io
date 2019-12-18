@@ -1,3 +1,7 @@
+// window.onload = function(){
+//     var loader = document.getElementById('loader')
+//     loader.remove();
+// }
 var slideUp = {
     delay: 500, 
     reset: true, 
@@ -31,10 +35,7 @@ ScrollReveal().reveal('.slideLeft', slideLeft);
 ScrollReveal().reveal('.slideRight', slideRight);
 
 
-// window.onload = function(){
-//     var loader = document.getElementById('loader')
-//     loader.remove();
-// }
+
 let $botonCheck = document.getElementById('hamb');
 let $header  = document.getElementById('header');
 let $textos = document.getElementById('textos');

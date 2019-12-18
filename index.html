@@ -10,12 +10,11 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body id="body">
-<!-- <div class="loader" id="loader">
-    <div class="center">
-        <div class="luz"></div>
-        <img src="" alt="">
-    </div>
-</div> -->
+    <!-- <div class="loader" id="loader">
+        <div class="center">
+            <div class="luz"></div>
+        </div>
+    </div> -->
 <section class="header-icons-container"> 
     <div class="logo">
         <img  src="assets/mountains.svg" alt="">
@@ -40,8 +39,8 @@
         <div class="container-hamburger">
            <div class="enlaces-container">
                <div class="enlaces uno" id="enlaces">
-                    <a href="#" class="active">Check my work </a>
-                    <a href="#">About me</a>
+                    <a href="#proyectos" class="active">Check my work </a>
+                    <a href="#sobre-mi">About me</a>
                     <a href="#footer">Contact</a>   
                 </div>
            </div>                 
@@ -54,13 +53,13 @@
         <div class="textos" id="textos">
             <h1 class="titulo slideDown">Nahuel Federico</h1>
             <h3 class="subtitulo slideUp">Web Designer</h3>
-            <a href="/" id="check-work" class="boton b1">Chek our work</a>
+            <a href="/" id="check-work" class="boton b1">Check my work</a>
         </div>
-        <div class="flecha-container b1">
-            <div class="flecha">&#8609;
-            <a href="#proyectos"></a>    
+        <a class="enlace-flecha" href="#proyectos">
+            <div class="flecha-container b1">
+                <div class="flecha">&#8609;</div>
             </div>
-        </div>
+        </a>    
         <!-- <div class="sesgoabajo"></div> -->
     </header>
     <main>
@@ -76,10 +75,10 @@
         <section class="galeria">
             <!-- <div class="sesgoarriba"></div> -->
             <div class="imagenes">
-                <img src="2.jpg" alt="">
+                <img src="" alt="">
             </div>
             <div class="imagenes">
-                <img src="4.jpg" alt="">
+                <img src="" alt="">
                 <div class="encima">
                     
                     <h2>Nahuel desings</h2>
@@ -87,11 +86,11 @@
                 </div>
             </div>
             <div class="imagenes">
-                <img src="3.jpg" alt="">
+                <img src="" alt="">
             </div>
             <!-- <div class="sesgoabajo"></div> -->
         </section>
-        <section class="fondo">
+        <section class="fondo" id="sobre-mi">
             <!-- <div class="sesgoarriba"></div> -->
             <div class="contenedor">
                 
@@ -99,15 +98,16 @@
                     <h3 class="slogan slideUp">Conoce nuestro equipo de trabajo</h3>
                     <div class="cards">
                         <div class="bio slideUp">
-                            <p>Soy diseñador web, desarrollador front-end y amante de la fotografia.
-                                <br>Me encanta trabajar con todo lo referido a la comunicacion visual, aunque mi objetivo principal es el diseño de interfaces web.
+                            <p>Soy diseñador web, desarrollador front-end y fotógrafo.
+                                <br>Me encanta trabajar con todo lo referido a la comunicación visual, aunque me especializo en el diseño de interfaces web.
                                 <br>Actualmente trabajo de manera freelance, utilizando algunas de las siguientes tecnologias:
                             </p>
                             <div class="tecno-container">
                                 <figure>
-                                    <img src="/assets/html-5.svg" alt="">
-                                    <img src="/assets/css-3.svg" alt="">
-                                    <img src="/assets/icons8-javascript.svg" alt="">
+                                    <img src="./assets/html-5.svg" alt="">
+                                    <img src="./assets/css-3.svg" alt="">
+                                    <img src="./assets/icons8-javascript.svg" alt="">
+                                    <img src="./assets/sass.svg" alt="">
                                 </figure>
                             </div>
                         </div>
@@ -148,7 +148,8 @@
                     </div>
                 </div>
             </footer>
-            <script src="https://unpkg.com/scrollreveal"></script>            
-<script src="src/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>            
+    <script src="src/app.js"></script>
 </body>
 </html>

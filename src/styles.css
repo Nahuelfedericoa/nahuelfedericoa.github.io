@@ -11,10 +11,13 @@ body {
     /* font-size: 16px; */
     margin: 0;
 }
+.hidden {
+    overflow: hidden;
+}
 .loader {
     margin: 0;
     width: 100vw;
-    height: 100vh;
+    height: 102vh;
     padding: 0;
     font-family: 'Raleway', monospace;
     background: rgba(24, 51, 95);
@@ -216,7 +219,7 @@ header .boton {
 .contenedor{
     width: 90%;
     max-width: 1000px;
-    padding: 52px 0 52px 0;
+    padding: 92px 0 52px 0;
     margin: auto;
     overflow: hidden;
     
@@ -333,14 +336,15 @@ header .boton {
 }
 .tecno-container figure {
     height: 50px;
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5px;
 }
 .tecno-container figure img {
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
 }
 .card {
     margin: 20px 0;
@@ -467,6 +471,10 @@ input[type="submit"] {
     width: 96px;
 }
 ::placeholder {
+    color: #FFF;
+}
+.enlace-flecha {
+    text-decoration: none;
     color: #FFF;
 }
 .flecha-container {
