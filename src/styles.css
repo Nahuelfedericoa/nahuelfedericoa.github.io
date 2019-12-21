@@ -484,7 +484,7 @@ footer {
             transform: translateY(5px);
         }
     }
-@media screen and (max-width:500px){
+    @media only screen and (max-width: 500px) and (min-width: 5px) {
     .header-icons-container .icons {
         margin-right: 25px;
     }
@@ -493,10 +493,7 @@ footer {
         margin-right: 50px;
     }
     .container-hamburger {
-        display: grid;
-        grid-template-columns: 4fr 1fr;
-        height: auto;
-        
+     
       
     }
     header .titulo {
@@ -512,7 +509,7 @@ footer {
         position: absolute;
         height: 40vh;
         left: 0;
-        top: 30%;
+        top: 175%;
         width: 100%;
         flex-direction: column;
         transition: all 1s ease;
