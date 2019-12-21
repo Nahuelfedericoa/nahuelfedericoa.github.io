@@ -273,17 +273,18 @@ header .boton {
     justify-content: space-around;
 }
 .imagenes {
-    width: 20%;
+    width: 30%;
     height: 300px;
     overflow: hidden;
     position: relative;
     margin-bottom: 150px;
+    transform: scale(1);
+    transition: all 450ms;
 }
 .imagenes img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
 }
 .encima {
     position: absolute;

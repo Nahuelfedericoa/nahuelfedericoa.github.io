@@ -9,44 +9,45 @@
     <link rel="stylesheet" href="src/hamburgers.css">
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-<body id="body">
+<body>
     <!-- <div class="loader" id="loader">
         <div class="center">
             <div class="luz"></div>
         </div>
     </div> -->
-<section class="header-icons-container"> 
-    <div class="logo">
-        <img  src="assets/mountains.svg" alt="">
-    </div>
-    <div class="icons">
-        <a  href="https://www.instagram.com/nahuelfedericoa/?hl=es-la" target="_blank">
-            <img class="icon-instagram" src="assets/instagram.svg" alt="Logo instagram">
-        </a>
-        <a class="icon-github" href="https://github.com/Nahuelfedericoa" target="_blank">
-            <img class="icon-github" src="assets/github.svg" alt="Logo github">
-        </a>
-        <a class="icon-linkedin" href="https://www.linkedin.com/in/nahuel-alegre-95875343/" target="_blank">
-            <img class="icon-linkedin" src="assets/linkedin.svg" alt="Logo linkedin">
-        </a>
-    </div>
-</section>
+    <section class="header-icons-container"> 
+        <div class="logo">
+            <img  src="assets/mountains.svg" alt="">
+        </div>
+        <div class="icons">
+            <a  href="https://www.instagram.com/nahuelfedericoa/?hl=es-la" target="_blank">
+                <img class="icon-instagram" src="assets/instagram.svg" alt="Logo instagram">
+            </a>
+            <a class="icon-github" href="https://github.com/Nahuelfedericoa" target="_blank">
+                <img class="icon-github" src="assets/github.svg" alt="Logo github">
+            </a>
+            <a class="icon-linkedin" href="https://www.linkedin.com/in/nahuel-alegre-95875343/" target="_blank">
+                <img class="icon-linkedin" src="assets/linkedin.svg" alt="Logo linkedin">
+            </a>
+        </div>
+    </section>
+    
     <header id="header" class="back-uno">
         <!-- <section class="herder-img">
             <img src="./assets/header.jpg" alt="">
         </section> -->
     
         <div class="container-hamburger">
-           <div class="enlaces-container">
-               <div class="enlaces uno" id="enlaces">
+        <div class="enlaces-container">
+            <div class="enlaces uno" id="enlaces">
                     <a href="#proyectos" class="active">Check my work </a>
                     <a href="#sobre-mi">About me</a>
                     <a href="#footer">Contact</a>   
                 </div>
-           </div>                 
+        </div>                 
             <button class="hamburger hamburger--emphatic" id="hamb" type="button">
                 <span class="hamburger-box">
-                  <span class="hamburger-inner"></span>
+                <span class="hamburger-inner"></span>
                 </span>
             </button>
         </div>
@@ -62,6 +63,7 @@
             </div>
         <!-- <div class="sesgoabajo"></div> -->
     </header>
+
     <main>
         <section id="proyectos" class="acerca-de">
             <div class="contenedor">
@@ -74,19 +76,22 @@
         </section>
         <section class="galeria">
             <!-- <div class="sesgoarriba"></div> -->
-            <div class="imagenes">
-                <img src="" alt="">
+            <div class="imagenes pepe slideLeft">
+                <a target="_blank" href="https://nahuelfedericoa.github.io/api-client/">
+
+                    <img src="./assets/form1.png" alt="">
+                </a>
             </div>
-            <div class="imagenes">
-                <img src="" alt="">
-                <div class="encima">
+            <div class="imagenes slideUp">
+                <img src="./assets/simon.png" alt="">
+                <!-- <div class="encima">
                     
                     <h2>Nahuel desings</h2>
                     <div></div>
-                </div>
+                </div> -->
             </div>
-            <div class="imagenes">
-                <img src="" alt="">
+            <div class="imagenes slideRight">
+                <img src="./assets/tasks.png" alt="">
             </div>
             <!-- <div class="sesgoabajo"></div> -->
         </section>
@@ -134,22 +139,24 @@
             <!-- <div class="sesgoabajo unico"></div> -->
         </section>
     </main>
-            <footer id="footer">
-                <div class="contenedor">
-                    <h2 class="titulo-footer">Contacto</h2>
-                    <!-- <h3 class="subtitulo-footer">lo agradeceriamos</h3> -->
-                    <div class="footer">
-                        <form action="">
-                            <input type="text" placeholder="Nombre">
-                            <input type="email" name="" placeholder="Email" id="">
-                            <textarea name=""  placeholder="Ingrese su mensaje..." cols="30" rows="10"></textarea>
-                            <input type="submit" value="Enviar">
-                        </form>
-                    </div>
-                </div>
-            </footer>
+    <footer id="footer">
+        <div class="contenedor">
+            <h2 class="titulo-footer">Contacto</h2>
+            <!-- <h3 class="subtitulo-footer">lo agradeceriamos</h3> -->
+            <div class="footer">
+                <form action="">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" name="" placeholder="Email" id="">
+                    <textarea name=""  placeholder="Ingrese su mensaje..." cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </footer>
+    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>            
     <script src="src/app.js"></script>
-</body>
+</body
+>
 </html>
